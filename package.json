@@ -1,0 +1,29 @@
+{
+  "name": "myki",
+  "version": "1.0.0",
+  "description": "mysql command line client",
+  "main": "myki.js",
+  "bin": {
+    "myki": "myki.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidorares/myki.git"
+  },
+  "author": "Andrey Sidorov <sidorares@yandex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidorares/myki/issues"
+  },
+  "homepage": "https://github.com/sidorares/myki#readme",
+  "dependencies": {
+    "ansi": "^0.3.1",
+    "bl": "^1.2.1",
+    "mysql2": "^1.2.0",
+    "sql-lexer": "^0.2.2",
+    "table": "^4.0.1"
+  }
+}
